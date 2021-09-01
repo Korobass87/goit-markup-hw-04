@@ -83,6 +83,7 @@ img {
   display: flex;
   margin-left: auto;
   padding-left: 0px;
+  align-content: center;
 }
 .contact li {
   margin-right: 50px;
@@ -98,6 +99,11 @@ img {
 
 .nav-list-item {
   margin-right: 50px;
+}
+
+.header-contact {
+  display: flex;
+  align-items: center;
 }
 
 .nav-list-item:last-child {
@@ -127,9 +133,27 @@ img {
   color: var(--contact-color);
 }
 
+.mail-link svg {
+  margin-right: 10px;
+  fill: var(--contact-color);
+}
+
+.mail-link:hover .contact-icon {
+  fill: var(--blue-color);
+}
+
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
+}
+
+.tel-link svg {
+  margin-right: 10px;
+  fill: var(--contact-color);
+}
+
+.tel-link:hover svg {
+  fill: var(--blue-color);
 }
 
 .section-examples {
