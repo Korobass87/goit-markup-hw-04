@@ -256,7 +256,6 @@ img {
 .advantages-list > li {
   margin-right: 30px;
   width: 270px;
-  background-color: var(--background-button-color);
 }
 
 .advantages-list > li:last-child {
@@ -286,6 +285,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--background-button-color);
 }
 
 .services-title {
